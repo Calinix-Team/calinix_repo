@@ -1,4 +1,4 @@
-rm calinix*
+rm calinix.db calinix.files
 
 echo "repo-add"
 repo-add -s -n -R calinix.db.tar.gz *.pkg.tar.zst
